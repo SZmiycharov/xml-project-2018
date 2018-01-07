@@ -9,8 +9,8 @@
 	<winehouses>
 		<winehouse id="winehouse1" type="Държавен">
 			<name>Винарска изба "Вила Винифера</name>
-			<webpage>https://www.uni-sofia.bg/</webpage>
-			<wines_count>23769</wines_count>
+			<webpage>http://www.villavinifera.com/</webpage>
+			<wines_count>23</wines_count>
 			<description>
 				Сгушена в сърцето на Родопите-село Брестовица, избата е създадена през далечната 1936 година. Построена е от немски архитект, чието име се губи някъде във времето, но намерените архивни чертежи и документи го потвърждават и създават усещането за висок професионализъм. Първото ѝ име е „Мискет“. 			</description>
 			<wines>
@@ -28,56 +28,46 @@
 		</winehouse>
 		
 		<winehouse id="winehouse2" type="Държавен">
-			<name>Университет за национално и световно стопанство</name>
-			<webpage>http://www.unwe.bg/</webpage>
-			<wines_count>18400</wines_count>
+			<name>Винарска изба Едоардо Миролио</name>
+			<webpage>http://www.emiroglio-wine.com/bg/</webpage>
+			<wines_count>30</wines_count>
 			<description>
-				Университетът за национално и световно стопанство е най-големият и най-старият икономически университет в Република България. Правоприемник е на Свободния университет за политически и стопански науки, създаден през 1920 г.
-			</description>
+				Винарска изба Едоардо Миролио е разположена в регион Тракийска низина в село Еленово, на 22 км. от Нова Загора.  Избата е заобиколена от лозя, разположени по хълмистите склонове, езеро и зелени ливади, които създават отлични условия за развитие на винен туризъм.			</description>
 			<wines>
-				<wine>Общоикономически факултет</wine>
-				<wine>Бизнес факултет</wine>
-				<wine>Факултет „Управление и администрация“</wine>
-				<wine>Факултет „Приложна информатика и статистика“</wine>
-				<wine>Финансово-счетоводен факултет</wine>
-				<wine>Факултет „Икономика на инфраструктурата“</wine>
-				<wine>Факултет „Международна икономика и политика“</wine>
-				<wine>Юридически факултет</wine>
+				<wine>EM Pinot Noir Reserve</wine>
+				<wine>Soli Invicto</wine>
+				<wine>Резерви ЕЛЕНОВО</wine>
+				<wine>Шампанизирани вина по Класически Метод</wine>
+				<wine>Международни вина/wine>
+				<wine>Био Вина</wine>
 			</wines>
 		</winehouse>
 		
 		<winehouse id="winehouse3" type="Частен">
-			<name>Нов български университет</name>
-			<webpage>http://www.nbu.bg/entrance.php</webpage>
-			<wines_count>12379</wines_count>
+			<name>Винарска изба Йогоров</name>
+			<webpage>http://www.yorgov.com/index.htm</webpage>
+			<wines_count>18</wines_count>
 			<description>
-				Нов български университет (известен още като НБУ) е български частен университет. Основната му база е разположена в София в две сгради (наричани 1-ви и 2-ри корпус), като притежава и други академични бази из страната, а също и собствена университетска библиотека в София — Библиотека на НБУ.
-			</description>
+				Капацитетът на избата е около 10 000 литра. Оборудвана е с винефикатори от неръждаема стомана, което гарантира чистотата  и истинският вкус на  нашето вино, получено от ферментацията на 100% гроздов сок.			</description>
 			<wines>
-				<wine>Факултет базово образование</wine>
-				<wine>Бакалавърски факултет</wine>
-				<wine>Магистърски факултет</wine>
-				<wine>Факултет за дистанционно, електронно и продължаващо обучение</wine>
+				<wine>Yorgov - Каберне Совиньон</wine>
+				<wine>Yorgov - Мерло</wine>
+				<wine>Yorgov - Купаж - Мерло  и Каберне Совиньон</wine>
+				<wine>Наливно вино</wine>
 			</wines>
 		</winehouse>
 		
 		<winehouse id="winehouse4" type="Държавен">
-			<name>Пловдивски университет "Паисий Хилендарски"</name>
-			<webpage>https://www.uni-plovdiv.bg/</webpage>
+			<name>Винарска изба магура</name>
+			<webpage>http://www.magurawinery.bg/</webpage>
 			<wines_count>17825</wines_count>
 			<description>
-				Пловдивският университет „Паисий Хилендарски” (или ПУ) е висше училище в Пловдив, България. Той е водеща културна, образователна и научна институция. ПУ е вторият по големина класически университет в страната след СУ „Св. Климент Охридски“.
-			</description>
+				Винарска изба „Магура“ е създадена през 1967 година в село Рабиша. Намира се в едно от най-загадъчните и красиви кътчета в България, между река Дунав и червените пясъчни скали на град Белоградчик и природния феномен пещерата Магурата. 			</description>
 			<wines>
-				<wine>Биологически факултет</wine>
-				<wine>Факултет „Икономически и социални науки“</wine>
-				<wine>Факултет по математика и информатика</wine>
-				<wine>Педагогически факултет</wine>
-				<wine>Физически факултет</wine>
-				<wine>Филологически факултет</wine>
-				<wine>Философско-исторически факултет</wine>
-				<wine>Химически факултет</wine>
-				<wine>Юридически факултет</wine>
+				<wine>ЕСТЕСТВЕНИ ПЕНЛИВИ ВИНА</wine>
+				<wine>ВИНА ТРЕВИТЕ</wine>
+				<wine>СОРТОВИ ВИНА МАГУРА</wine>
+				<wine>ВИНА БЕЛОГРАДЧИШКИ СКАЛИ</wine>
 			</wines>
 		</winehouse>
 			
@@ -135,18 +125,17 @@
 
 	<regions>
 		<region id="CA">Sofia, Bulgaria</region>
-		<region id="PB">Plovdiv, Bulgaria</region>
-		<region id="B">Varna, Bulgaria</region>
-		<region id="BT">Veliko Turnovo, Bulgaria</region>
 		<region id="E">Blagoevgrad, Bulgaria</region>
-    <region id="PA">Pazardzhik, Bulgaria</region>
+		<region id="CH">Sliven, Bulgaria</region>
+		<region id="H">Shumen, Bulgaria</region>
+		<region id="PA">Pazardzhik, Bulgaria</region>
 	</regions>
 
 	<winehouses_regions_pairs>
-		<winehouses_regions winehouse_id="winehouse1" region_id="CA" />
-		<winehouses_regions winehouse_id="winehouse2" region_id="CA" />
-		<winehouses_regions winehouse_id="winehouse3" region_id="CA" />
-		<winehouses_regions winehouse_id="winehouse4" region_id="PB" />
+		<winehouses_regions winehouse_id="winehouse1" region_id="PA" />
+		<winehouses_regions winehouse_id="winehouse2" region_id="CH" />
+		<winehouses_regions winehouse_id="winehouse3" region_id="H" />
+		<winehouses_regions winehouse_id="winehouse4" region_id="СА" />
 		<winehouses_regions winehouse_id="winehouse5" region_id="PA" />
 		<winehouses_regions winehouse_id="winehouse6" region_id="E" />
 		<winehouses_regions winehouse_id="winehouse7" region_id="E" />
