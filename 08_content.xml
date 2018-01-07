@@ -7,10 +7,10 @@
 				xsi:schemaLocation="http://www.w3schools.com 08_schema.xsd">
 
 	<winehouses>
-		<winehouse id="uni1" type="Държавен">
+		<winehouse id="winehouse1" type="Държавен">
 			<name>Винарска изба "Вила Винифера</name>
 			<webpage>https://www.uni-sofia.bg/</webpage>
-			<students_count>23769</students_count>
+			<wines_count>23769</wines_count>
 			<description>
 				Сгушена в сърцето на Родопите-село Брестовица, избата е създадена през далечната 1936 година. Построена е от немски архитект, чието име се губи някъде във времето, но намерените архивни чертежи и документи го потвърждават и създават усещането за висок професионализъм. Първото ѝ име е „Мискет“. 			</description>
 			<wines>
@@ -33,10 +33,10 @@
 			</wines>
 		</winehouse>
 		
-		<winehouse id="uni2" type="Държавен">
+		<winehouse id="winehouse2" type="Държавен">
 			<name>Университет за национално и световно стопанство</name>
 			<webpage>http://www.unwe.bg/</webpage>
-			<students_count>18400</students_count>
+			<wines_count>18400</wines_count>
 			<description>
 				Университетът за национално и световно стопанство е най-големият и най-старият икономически университет в Република България. Правоприемник е на Свободния университет за политически и стопански науки, създаден през 1920 г.
 			</description>
@@ -52,10 +52,10 @@
 			</wines>
 		</winehouse>
 		
-		<winehouse id="uni3" type="Частен">
+		<winehouse id="winehouse3" type="Частен">
 			<name>Нов български университет</name>
 			<webpage>http://www.nbu.bg/entrance.php</webpage>
-			<students_count>12379</students_count>
+			<wines_count>12379</wines_count>
 			<description>
 				Нов български университет (известен още като НБУ) е български частен университет. Основната му база е разположена в София в две сгради (наричани 1-ви и 2-ри корпус), като притежава и други академични бази из страната, а също и собствена университетска библиотека в София — Библиотека на НБУ.
 			</description>
@@ -67,10 +67,10 @@
 			</wines>
 		</winehouse>
 		
-		<winehouse id="uni4" type="Държавен">
+		<winehouse id="winehouse4" type="Държавен">
 			<name>Пловдивски университет "Паисий Хилендарски"</name>
 			<webpage>https://www.uni-plovdiv.bg/</webpage>
-			<students_count>17825</students_count>
+			<wines_count>17825</wines_count>
 			<description>
 				Пловдивският университет „Паисий Хилендарски” (или ПУ) е висше училище в Пловдив, България. Той е водеща културна, образователна и научна институция. ПУ е вторият по големина класически университет в страната след СУ „Св. Климент Охридски“.
 			</description>
@@ -87,10 +87,10 @@
 			</wines>
 		</winehouse>
 		
-		<winehouse id="uni5" type="Частен">
+		<winehouse id="winehouse5" type="Частен">
 			<name>Колеж по икономика и администрация</name>
 			<webpage>http://www.ceabul.net/web/</webpage>
-			<students_count>1507</students_count>
+			<wines_count>1507</wines_count>
 			<description>Колежът по икономика и администрация (съкратено КИА) е висше училище в Пловдив, създадено по решение на Народното събрание, обнародвано в „Държавен вестник“, бр. 97 от 4 септември 2003 г.</description>
 			<wines>
 				<wine>Администраця и управление</wine>
@@ -99,10 +99,10 @@
 			</wines>
 		</winehouse>
 		
-		<winehouse id="uni6" type="Частен">
+		<winehouse id="winehouse6" type="Частен">
 			<name>Варненски свободен университет "Черноризец Храбър"</name>
 			<webpage>http://www.vfu.bg/</webpage>
-			<students_count>11497</students_count>
+			<wines_count>11497</wines_count>
 			<description>
 				Варненският свободен университет „Черноризец Храбър“ е най-големият частен университет в България със седалище в гр. Варна. Намира се в близост до курортен комплекс Златни пясъци.
 			</description>
@@ -115,10 +115,10 @@
 			</wines>
 		</winehouse>
 		
-		<winehouse id="uni7" type="Държавен">
+		<winehouse id="winehouse7" type="Държавен">
 			<name>Великотърновски университет "Св. св. Кирил и Методий"</name>
 			<webpage>http://www.uni-vt.bg/1/</webpage>
-			<students_count>11867</students_count>
+			<wines_count>11867</wines_count>
 			<description>
 				Великотърновският университет „Св. св. Кирил и Методий“ е създаден през 1963 година като Висш педагогически институт „Братя Кирил и Методий“ във Велико Търново. Според неговия уебсайт той е вторият по големина университет в България след СУ "Св. Климент Охридски" и е наследник на просветните и културни традиции на Търновската книжовна школа от 14 век.
 			</description>
@@ -135,10 +135,10 @@
 			</wines>
 		</winehouse>
 		
-		<winehouse id="uni8" type="Държавен">
+		<winehouse id="winehouse8" type="Държавен">
 			<name>Американски университет в България</name>
 			<webpage>http://www.aubg.bg/</webpage>
-			<students_count>1338</students_count>
+			<wines_count>1338</wines_count>
 			<description>
 				Американският университет в България, съкратено АУБ (англ. American winehouse in Bulgaria) е частен университет, разположен в Благоевград, България. АУБ следва традиционния американски модел на образование на свободните изкуства, характеризиращ се със съвместно съжителство на студентите в модерен университетски комплекс и с високи критерии за прием.
 			</description>
@@ -163,14 +163,14 @@
 	</regions>
 
 	<winehouses_regions_pairs>
-		<winehouses_regions winehouse_id="uni1" region_id="CA" />
-		<winehouses_regions winehouse_id="uni2" region_id="CA" />
-		<winehouses_regions winehouse_id="uni3" region_id="CA" />
-		<winehouses_regions winehouse_id="uni4" region_id="PB" />
-		<winehouses_regions winehouse_id="uni5" region_id="PB" />
-		<winehouses_regions winehouse_id="uni6" region_id="B" />
-		<winehouses_regions winehouse_id="uni7" region_id="BT" />
-		<winehouses_regions winehouse_id="uni8" region_id="E" />
+		<winehouses_regions winehouse_id="winehouse1" region_id="CA" />
+		<winehouses_regions winehouse_id="winehouse2" region_id="CA" />
+		<winehouses_regions winehouse_id="winehouse3" region_id="CA" />
+		<winehouses_regions winehouse_id="winehouse4" region_id="PB" />
+		<winehouses_regions winehouse_id="winehouse5" region_id="PB" />
+		<winehouses_regions winehouse_id="winehouse6" region_id="B" />
+		<winehouses_regions winehouse_id="winehouse7" region_id="BT" />
+		<winehouses_regions winehouse_id="winehouse8" region_id="E" />
 	</winehouses_regions_pairs>
 
 </winehouses_catalogue>
