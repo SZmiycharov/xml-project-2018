@@ -25,7 +25,7 @@
 					Уеб страница
 				</th>                                                                                             
 				<th style="width:50px">
-					<a href="#" onclick="this.blur(); return sortTable('winehouses-body', 2, true);">Брой студенти</a>
+					<a href="#" onclick="this.blur(); return sortTable('winehouses-body', 2, true);">Брой вина</a>
 				</th>                                                                                 
 				<th style="width:20px">
 					<a href="#" onclick="this.blur(); return sortTable('winehouses-body', 3, true);">Тип</a>
@@ -34,7 +34,7 @@
 					Описание
 				</th>                                                                                                        
 				<th style="width:100px">
-					Факултети
+					Видове вина
 				</th>                                                                                           
 				<th style="width:30px">
 					<a href="#" onclick="this.blur(); return sortTable('winehouses-body', 6, true);">Регион</a>
