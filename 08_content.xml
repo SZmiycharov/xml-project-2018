@@ -2,158 +2,157 @@
 
 <?xml-stylesheet type="text/xsl" href="08_transformation.xsl"?>
 
-<universities_catalogue	xmlns="http://www.w3schools.com"
+<winehouses_catalogue	xmlns="http://www.w3schools.com"
 				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 				xsi:schemaLocation="http://www.w3schools.com 08_schema.xsd">
 
-	<universities>
-		<university id="uni1" type="Държавен">
-			<name>Софийски университет "Св. Климент Охридски"</name>
+	<winehouses>
+		<winehouse id="uni1" type="Държавен">
+			<name>Винарска изба "Вила Винифера</name>
 			<webpage>https://www.uni-sofia.bg/</webpage>
 			<students_count>23769</students_count>
 			<description>
-				Софийският университет „Св. Климент Охридски“ (СУ) е най-старото и най-голямото висше учебно заведение в България. Освен това той е вторият най-голям изследователски център в България, след БАН.
-			</description>
-			<faculties>
-				<faculty>Исторически факултет</faculty>
-				<faculty>Философски факултет</faculty>
-				<faculty>Факултет по класически и нови филологии</faculty>
-				<faculty>Факултет по славянски филологии</faculty>
-				<faculty>Юридически факултет</faculty>
-				<faculty>Факултет по педагогика</faculty>
-				<faculty>Факултет по начална и предучилищна педагогика</faculty>
-				<faculty>Факултет по журналистика и масова комуникация</faculty>
-				<faculty>Богословски факултет</faculty>
-				<faculty>Стопански факултет</faculty>
-				<faculty>Факултет по математика и информатика</faculty>
-				<faculty>Физически факултет</faculty>
-				<faculty>Факултет по химия и фармация</faculty>
-				<faculty>Биологически факултет</faculty>
-				<faculty>Геолого-географски факултет</faculty>
-				<faculty>Медицински факултет</faculty>
-			</faculties>
-		</university>
+				Сгушена в сърцето на Родопите-село Брестовица, избата е създадена през далечната 1936 година. Построена е от немски архитект, чието име се губи някъде във времето, но намерените архивни чертежи и документи го потвърждават и създават усещането за висок професионализъм. Първото ѝ име е „Мискет“. 			</description>
+			<wines>
+				<wine>РОЗЕ МАВРУД 2016</wine>
+				<wine>МАВРУД 2014</wine>
+				<wine>КАБЕРНЕ СОВИНЬОН 2014</wine>
+				<wine>МЕРЛО 2014</wine>
+				<wine>МАВРУД 2016</wine>
+				<wine>Факултет по педагогика</wine>
+				<wine>Факултет по начална и предучилищна педагогика</wine>
+				<wine>Факултет по журналистика и масова комуникация</wine>
+				<wine>Богословски факултет</wine>
+				<wine>Стопански факултет</wine>
+				<wine>Факултет по математика и информатика</wine>
+				<wine>Физически факултет</wine>
+				<wine>Факултет по химия и фармация</wine>
+				<wine>Биологически факултет</wine>
+				<wine>Геолого-географски факултет</wine>
+				<wine>Медицински факултет</wine>
+			</wines>
+		</winehouse>
 		
-		<university id="uni2" type="Държавен">
+		<winehouse id="uni2" type="Държавен">
 			<name>Университет за национално и световно стопанство</name>
 			<webpage>http://www.unwe.bg/</webpage>
 			<students_count>18400</students_count>
 			<description>
 				Университетът за национално и световно стопанство е най-големият и най-старият икономически университет в Република България. Правоприемник е на Свободния университет за политически и стопански науки, създаден през 1920 г.
 			</description>
-			<faculties>
-				<faculty>Общоикономически факултет</faculty>
-				<faculty>Бизнес факултет</faculty>
-				<faculty>Факултет „Управление и администрация“</faculty>
-				<faculty>Факултет „Приложна информатика и статистика“</faculty>
-				<faculty>Финансово-счетоводен факултет</faculty>
-				<faculty>Факултет „Икономика на инфраструктурата“</faculty>
-				<faculty>Факултет „Международна икономика и политика“</faculty>
-				<faculty>Юридически факултет</faculty>
-			</faculties>
-		</university>
+			<wines>
+				<wine>Общоикономически факултет</wine>
+				<wine>Бизнес факултет</wine>
+				<wine>Факултет „Управление и администрация“</wine>
+				<wine>Факултет „Приложна информатика и статистика“</wine>
+				<wine>Финансово-счетоводен факултет</wine>
+				<wine>Факултет „Икономика на инфраструктурата“</wine>
+				<wine>Факултет „Международна икономика и политика“</wine>
+				<wine>Юридически факултет</wine>
+			</wines>
+		</winehouse>
 		
-		<university id="uni3" type="Частен">
+		<winehouse id="uni3" type="Частен">
 			<name>Нов български университет</name>
 			<webpage>http://www.nbu.bg/entrance.php</webpage>
 			<students_count>12379</students_count>
 			<description>
 				Нов български университет (известен още като НБУ) е български частен университет. Основната му база е разположена в София в две сгради (наричани 1-ви и 2-ри корпус), като притежава и други академични бази из страната, а също и собствена университетска библиотека в София — Библиотека на НБУ.
 			</description>
-			<faculties>
-				<faculty>Факултет базово образование</faculty>
-				<faculty>Бакалавърски факултет</faculty>
-				<faculty>Магистърски факултет</faculty>
-				<faculty>Факултет за дистанционно, електронно и продължаващо обучение</faculty>
-			</faculties>
-		</university>
+			<wines>
+				<wine>Факултет базово образование</wine>
+				<wine>Бакалавърски факултет</wine>
+				<wine>Магистърски факултет</wine>
+				<wine>Факултет за дистанционно, електронно и продължаващо обучение</wine>
+			</wines>
+		</winehouse>
 		
-		<university id="uni4" type="Държавен">
+		<winehouse id="uni4" type="Държавен">
 			<name>Пловдивски университет "Паисий Хилендарски"</name>
 			<webpage>https://www.uni-plovdiv.bg/</webpage>
 			<students_count>17825</students_count>
 			<description>
 				Пловдивският университет „Паисий Хилендарски” (или ПУ) е висше училище в Пловдив, България. Той е водеща културна, образователна и научна институция. ПУ е вторият по големина класически университет в страната след СУ „Св. Климент Охридски“.
 			</description>
-			<faculties>
-				<faculty>Биологически факултет</faculty>
-				<faculty>Факултет „Икономически и социални науки“</faculty>
-				<faculty>Факултет по математика и информатика</faculty>
-				<faculty>Педагогически факултет</faculty>
-				<faculty>Физически факултет</faculty>
-				<faculty>Филологически факултет</faculty>
-				<faculty>Философско-исторически факултет</faculty>
-				<faculty>Химически факултет</faculty>
-				<faculty>Юридически факултет</faculty>
-			</faculties>
-		</university>
+			<wines>
+				<wine>Биологически факултет</wine>
+				<wine>Факултет „Икономически и социални науки“</wine>
+				<wine>Факултет по математика и информатика</wine>
+				<wine>Педагогически факултет</wine>
+				<wine>Физически факултет</wine>
+				<wine>Филологически факултет</wine>
+				<wine>Философско-исторически факултет</wine>
+				<wine>Химически факултет</wine>
+				<wine>Юридически факултет</wine>
+			</wines>
+		</winehouse>
 		
-		<university id="uni5" type="Частен">
+		<winehouse id="uni5" type="Частен">
 			<name>Колеж по икономика и администрация</name>
 			<webpage>http://www.ceabul.net/web/</webpage>
 			<students_count>1507</students_count>
 			<description>Колежът по икономика и администрация (съкратено КИА) е висше училище в Пловдив, създадено по решение на Народното събрание, обнародвано в „Държавен вестник“, бр. 97 от 4 септември 2003 г.</description>
-			<faculties>
-				<faculty>Администраця и управление</faculty>
-				<faculty>Икономика</faculty>
-				<faculty>Туризъм</faculty>
-			</faculties>
-		</university>
+			<wines>
+				<wine>Администраця и управление</wine>
+				<wine>Икономика</wine>
+				<wine>Туризъм</wine>
+			</wines>
+		</winehouse>
 		
-		<university id="uni6" type="Частен">
+		<winehouse id="uni6" type="Частен">
 			<name>Варненски свободен университет "Черноризец Храбър"</name>
 			<webpage>http://www.vfu.bg/</webpage>
 			<students_count>11497</students_count>
 			<description>
 				Варненският свободен университет „Черноризец Храбър“ е най-големият частен университет в България със седалище в гр. Варна. Намира се в близост до курортен комплекс Златни пясъци.
 			</description>
-			<faculties>
-				<faculty>Факултет "Международна икономика и администрация"</faculty>
-				<faculty>Юридически факултет</faculty>
-				<faculty>Архитектурен факултет</faculty>
-				<faculty>Департамент "Чуждоезиково обучение"</faculty>
-				<faculty>Филиал Смолян</faculty>
-			</faculties>
-		</university>
+			<wines>
+				<wine>Факултет "Международна икономика и администрация"</wine>
+				<wine>Юридически факултет</wine>
+				<wine>Архитектурен факултет</wine>
+				<wine>Департамент "Чуждоезиково обучение"</wine>
+				<wine>Филиал Смолян</wine>
+			</wines>
+		</winehouse>
 		
-		<university id="uni7" type="Държавен">
+		<winehouse id="uni7" type="Държавен">
 			<name>Великотърновски университет "Св. св. Кирил и Методий"</name>
 			<webpage>http://www.uni-vt.bg/1/</webpage>
 			<students_count>11867</students_count>
 			<description>
 				Великотърновският университет „Св. св. Кирил и Методий“ е създаден през 1963 година като Висш педагогически институт „Братя Кирил и Методий“ във Велико Търново. Според неговия уебсайт той е вторият по големина университет в България след СУ "Св. Климент Охридски" и е наследник на просветните и културни традиции на Търновската книжовна школа от 14 век.
 			</description>
-			<faculties>
-				<faculty>Филологически факултет</faculty>
-				<faculty>Исторически факултет</faculty>
-				<faculty>Юридически факултет</faculty>
-				<faculty>Педагогически факултет</faculty>
-				<faculty>Стопански факултет</faculty>
-				<faculty>Философски факултет</faculty>
-				<faculty>Факултет по математика и информатика</faculty>
-				<faculty>Православен богословски факултет</faculty>
-				<faculty>Факултет по изобразително изкуство</faculty>
-			</faculties>
-		</university>
+			<wines>
+				<wine>Филологически факултет</wine>
+				<wine>Исторически факултет</wine>
+				<wine>Юридически факултет</wine>
+				<wine>Педагогически факултет</wine>
+				<wine>Стопански факултет</wine>
+				<wine>Философски факултет</wine>
+				<wine>Факултет по математика и информатика</wine>
+				<wine>Православен богословски факултет</wine>
+				<wine>Факултет по изобразително изкуство</wine>
+			</wines>
+		</winehouse>
 		
-		<university id="uni8" type="Държавен">
+		<winehouse id="uni8" type="Държавен">
 			<name>Американски университет в България</name>
 			<webpage>http://www.aubg.bg/</webpage>
 			<students_count>1338</students_count>
 			<description>
-				Американският университет в България, съкратено АУБ (англ. American University in Bulgaria) е частен университет, разположен в Благоевград, България. АУБ следва традиционния американски модел на образование на свободните изкуства, характеризиращ се със съвместно съжителство на студентите в модерен университетски комплекс и с високи критерии за прием.
+				Американският университет в България, съкратено АУБ (англ. American winehouse in Bulgaria) е частен университет, разположен в Благоевград, България. АУБ следва традиционния американски модел на образование на свободните изкуства, характеризиращ се със съвместно съжителство на студентите в модерен университетски комплекс и с високи критерии за прием.
 			</description>
-			<faculties>
-				<faculty>Факултет за изкуство, филология и литература</faculty>
-				<faculty>Факултет по европейски изследвания, история, политически науки и международни отношения</faculty>
-				<faculty>Факултет по икономика</faculty>
-				<faculty>Факултет по журналистика и масови комуникации</faculty>
-				<faculty>Факултет по икономика и мениджмънт</faculty>
-				<faculty>Факултет по математически и естествени науки</faculty>
-				<faculty>Бизнес колеж</faculty>
-			</faculties>
-		</university>
-	</universities>
+			<wines>
+				<wine>Факултет за изкуство, филология и литература</wine>
+				<wine>Факултет по европейски изследвания, история, политически науки и международни отношения</wine>
+				<wine>Факултет по икономика</wine>
+				<wine>Факултет по журналистика и масови комуникации</wine>
+				<wine>Факултет по икономика и мениджмънт</wine>
+				<wine>Факултет по математически и естествени науки</wine>
+				<wine>Бизнес колеж</wine>
+			</wines>
+		</winehouse>
+	</winehouses>
 
 	<regions>
 		<region id="CA">Sofia, Bulgaria</region>
@@ -163,15 +162,15 @@
 		<region id="E">Blagoevgrad, Bulgaria</region>
 	</regions>
 
-	<universities_regions_pairs>
-		<universities_regions university_id="uni1" region_id="CA" />
-		<universities_regions university_id="uni2" region_id="CA" />
-		<universities_regions university_id="uni3" region_id="CA" />
-		<universities_regions university_id="uni4" region_id="PB" />
-		<universities_regions university_id="uni5" region_id="PB" />
-		<universities_regions university_id="uni6" region_id="B" />
-		<universities_regions university_id="uni7" region_id="BT" />
-		<universities_regions university_id="uni8" region_id="E" />
-	</universities_regions_pairs>
+	<winehouses_regions_pairs>
+		<winehouses_regions winehouse_id="uni1" region_id="CA" />
+		<winehouses_regions winehouse_id="uni2" region_id="CA" />
+		<winehouses_regions winehouse_id="uni3" region_id="CA" />
+		<winehouses_regions winehouse_id="uni4" region_id="PB" />
+		<winehouses_regions winehouse_id="uni5" region_id="PB" />
+		<winehouses_regions winehouse_id="uni6" region_id="B" />
+		<winehouses_regions winehouse_id="uni7" region_id="BT" />
+		<winehouses_regions winehouse_id="uni8" region_id="E" />
+	</winehouses_regions_pairs>
 
-</universities_catalogue>
+</winehouses_catalogue>
