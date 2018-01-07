@@ -86,70 +86,55 @@
 				<wine>Юридически факултет</wine>
 			</wines>
 		</winehouse>
-		
+			
 		<winehouse id="winehouse5" type="Частен">
-			<name>Колеж по икономика и администрация</name>
-			<webpage>http://www.ceabul.net/web/</webpage>
-			<wines_count>1507</wines_count>
-			<description>Колежът по икономика и администрация (съкратено КИА) е висше училище в Пловдив, създадено по решение на Народното събрание, обнародвано в „Държавен вестник“, бр. 97 от 4 септември 2003 г.</description>
+			<name>Винарска изба Румелия </name>
+			<webpage>http://www.rumelia.net/</webpage>
+			<wines_count>11497</wines_count>
+			<description>
+        Винарска изба “Румелия” преработва качествено грозде, събрало слънчевите лъчи на Златна Тракия – предпоставка и гаранция за високото ниво на предлаганите вина. Избата е оборудвана по най-модерна технология за производство на елитни червени вина, чиито стил и финес се дължат на стриктния контрол на качеството на всяка партида грозде. Капацитетът на избата е за преработка на 500-600 тона грозде годишно – за производството на 400-500 хиляди бутилки вино на година. Подземната изба разполага с бъчви от френски, американски и български дъб – с капацитет 1000 барици.
+      </description>
 			<wines>
-				<wine>Администраця и управление</wine>
-				<wine>Икономика</wine>
-				<wine>Туризъм</wine>
+				<wine>Бели вина от серия “Мерул”</wine>
+				<wine>Розе от серия “Мерул”</wine>
+        <wine>Червени вина от серия “Мерул Резерва”</wine>
+        <wine>Червени вина от серия “Мерул”</wine>
+        <wine>Червени вина от серия “Румелия”</wine>
+        <wine>Червено вино от серия “Ерелия”</wine>
 			</wines>
 		</winehouse>
 		
-		<winehouse id="winehouse6" type="Частен">
-			<name>Варненски свободен университет "Черноризец Храбър"</name>
-			<webpage>http://www.vfu.bg/</webpage>
-			<wines_count>11497</wines_count>
+		<winehouse id="winehouse6" type="Държавен">
+			<name>Винарска изба Синтика – Сандански "</name>
+			<webpage>http://sinticawinery.com/</webpage>
+			<wines_count>17</wines_count>
 			<description>
-				Варненският свободен университет „Черноризец Храбър“ е най-големият частен университет в България със седалище в гр. Варна. Намира се в близост до курортен комплекс Златни пясъци.
-			</description>
+        Разположена в сърцето на регион известен с лозарството и винарството от времето на Траките, Винарска изба Синтика е новото превъплъщение на изградената в средата на миналия век Комплексна опитна станция в гр. Сандански.
+      </description>
 			<wines>
-				<wine>Факултет "Международна икономика и администрация"</wine>
-				<wine>Юридически факултет</wine>
-				<wine>Архитектурен факултет</wine>
-				<wine>Департамент "Чуждоезиково обучение"</wine>
-				<wine>Филиал Смолян</wine>
+				<wine>La Poesie</wine>
+				<wine>Renaissance</wine>
+        <wine>Explosion</wine>
+        <wine>Phenomene</wine>
+        <wine>Sinti</wine>
+        <wine>Le Passionel</wine>
 			</wines>
 		</winehouse>
 		
 		<winehouse id="winehouse7" type="Държавен">
-			<name>Великотърновски университет "Св. св. Кирил и Методий"</name>
-			<webpage>http://www.uni-vt.bg/1/</webpage>
-			<wines_count>11867</wines_count>
+			<name>Винарска изба „Вила Мелник“ </name>
+			<webpage>http://villamelnik.com/%d0%b7%d0%b0-%d0%bd%d0%b0%d1%81/</webpage>
+			<wines_count>35</wines_count>
 			<description>
-				Великотърновският университет „Св. св. Кирил и Методий“ е създаден през 1963 година като Висш педагогически институт „Братя Кирил и Методий“ във Велико Търново. Според неговия уебсайт той е вторият по големина университет в България след СУ "Св. Климент Охридски" и е наследник на просветните и културни традиции на Търновската книжовна школа от 14 век.
-			</description>
+        ВИНАРСКА ИЗБА ВИЛА МЕЛНИК
+        е семейна винарна, производител на смели вина от местни и чуждестранни сортове с подчертано Мелнишки характер. Разполага с 300 декара собствени лозя край град Мелник и модерна винарна, която е отворена за посетители всеки ден.
+      </description>
 			<wines>
-				<wine>Филологически факултет</wine>
-				<wine>Исторически факултет</wine>
-				<wine>Юридически факултет</wine>
-				<wine>Педагогически факултет</wine>
-				<wine>Стопански факултет</wine>
-				<wine>Философски факултет</wine>
-				<wine>Факултет по математика и информатика</wine>
-				<wine>Православен богословски факултет</wine>
-				<wine>Факултет по изобразително изкуство</wine>
-			</wines>
-		</winehouse>
-		
-		<winehouse id="winehouse8" type="Държавен">
-			<name>Американски университет в България</name>
-			<webpage>http://www.aubg.bg/</webpage>
-			<wines_count>1338</wines_count>
-			<description>
-				Американският университет в България, съкратено АУБ (англ. American winehouse in Bulgaria) е частен университет, разположен в Благоевград, България. АУБ следва традиционния американски модел на образование на свободните изкуства, характеризиращ се със съвместно съжителство на студентите в модерен университетски комплекс и с високи критерии за прием.
-			</description>
-			<wines>
-				<wine>Факултет за изкуство, филология и литература</wine>
-				<wine>Факултет по европейски изследвания, история, политически науки и международни отношения</wine>
-				<wine>Факултет по икономика</wine>
-				<wine>Факултет по журналистика и масови комуникации</wine>
-				<wine>Факултет по икономика и мениджмънт</wine>
-				<wine>Факултет по математически и естествени науки</wine>
-				<wine>Бизнес колеж</wine>
+				<wine>Специални вина</wine>
+        <wine>Aplauz</wine>
+        <wine>Bergule</wine>
+        <wine>Family tradition</wine>
+        <wine>Young and crazy</wine>
 			</wines>
 		</winehouse>
 	</winehouses>
@@ -160,6 +145,7 @@
 		<region id="B">Varna, Bulgaria</region>
 		<region id="BT">Veliko Turnovo, Bulgaria</region>
 		<region id="E">Blagoevgrad, Bulgaria</region>
+    <region id="PA">Pazardzhik, Bulgaria</region>
 	</regions>
 
 	<winehouses_regions_pairs>
@@ -167,10 +153,9 @@
 		<winehouses_regions winehouse_id="winehouse2" region_id="CA" />
 		<winehouses_regions winehouse_id="winehouse3" region_id="CA" />
 		<winehouses_regions winehouse_id="winehouse4" region_id="PB" />
-		<winehouses_regions winehouse_id="winehouse5" region_id="PB" />
-		<winehouses_regions winehouse_id="winehouse6" region_id="B" />
-		<winehouses_regions winehouse_id="winehouse7" region_id="BT" />
-		<winehouses_regions winehouse_id="winehouse8" region_id="E" />
+		<winehouses_regions winehouse_id="winehouse5" region_id="PA" />
+		<winehouses_regions winehouse_id="winehouse6" region_id="E" />
+		<winehouses_regions winehouse_id="winehouse7" region_id="E" />
 	</winehouses_regions_pairs>
 
 </winehouses_catalogue>
