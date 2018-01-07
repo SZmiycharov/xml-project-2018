@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>                                                                                                                                      
+	<head>                                                                                                                                  
+		<meta charset="UTF-8">                                                                       
+		<title>Унивеситети</title>                                                                                                         
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="jquery-1.10.2.min.js"></script>
+		<script src="sorttable.js"></script>
+		<script src="xslt.js"></script>
+		<script>
+		window.onload = function() {
+			new Transformation().setXml("08_content.xml")
+				.setXslt("08_transformation.xsl").transform("table-div");
+		}
+		</script>
+	</head>                                                                                                                                 
+	<body>                                                                                                                                  
+		<h1>Каталог на българските висши учебни заведения</h1>                                                                                 
+		<div id="table-div">  
+		</div>  
+	</body>        
+	<script type="text/javascript">
+		$(document).ready(function(){
+			alert("Open with Mozilla Firefox or open the ready index_nojs.html");
+		});
+	</script>
+</html> 
