@@ -19,13 +19,13 @@
 
 	<!-- Attributes -->
 
-	<xs:simpleType name="university_id">
+	<xs:simpleType name="winehouse_id">
 		<xs:restriction base="xs:string">
 			<xs:pattern value="uni[1-9]([0-9])*" />
 		</xs:restriction>
 	</xs:simpleType>
 	
-	<xs:simpleType name="university_type">
+	<xs:simpleType name="winehouse_type">
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="Частен" />
 			<xs:enumeration value="Държавен" />
@@ -47,18 +47,18 @@
 		</xs:complexType>
 	</xs:element>
 
-	<xs:element name="university">
+	<xs:element name="winehouse">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="name" />
 				<xs:element ref="webpage" />
-				<xs:element ref="students_count" />
+				<xs:element ref="wines_count" />
 				<xs:element ref="description" />
-				<xs:element ref="faculties" />
+				<xs:element ref="wines" />
 			</xs:sequence>
 			
-			<xs:attribute name="id" type="university_id" use="required" />
-			<xs:attribute name="type" type="university_type" use="required" />		
+			<xs:attribute name="id" type="winehouse_id" use="required" />
+			<xs:attribute name="type" type="winehouse_type" use="required" />		
 		</xs:complexType>
 	</xs:element>
 
@@ -74,7 +74,7 @@
 
 	<xs:element name="universities_regions">
 		<xs:complexType>
-			<xs:attribute name="university_id" type="university_id" use="required" />
+			<xs:attribute name="winehouse_id" type="winehouse_id" use="required" />
 			<xs:attribute name="region_id" type="region_id" use="required" />
 		</xs:complexType>
 	</xs:element>
@@ -85,7 +85,7 @@
 	<xs:element name="universities">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="university" maxOccurs="unbounded" />
+				<xs:element ref="winehouse" maxOccurs="unbounded" />
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -121,12 +121,12 @@
 		
 		<xs:key name="regionsKey">
 			<xs:selector xpath="universities_catalogue" />
-			<xs:field xpath="universities/university/@id" />
+			<xs:field xpath="universities/winehouse/@id" />
 			<xs:field xpath="regions/region/@id" />
 		</xs:key>
 		<xs:keyref name="regionsRef" refer="regionsKey">
 			<xs:selector xpath="universities_catalogue/universities_regions_pairs/universities_regions" />
-			<xs:field xpath="@university_id" />
+			<xs:field xpath="@winehouse_id" />
 			<xs:field xpath="@region_id" />
 		</xs:keyref>
 		

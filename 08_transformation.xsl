@@ -6,9 +6,9 @@
 				exclude-result-prefixes="x">
 
 	<xsl:template match="/">               
-		<table id="universities"> 
+		<table id="winehouses"> 
 			<xsl:call-template name="header" />
-			<tbody id="universities-body">
+			<tbody id="winehouses-body">
 				<xsl:apply-templates select="//x:winehouses" />
 			</tbody>
 		</table>
