@@ -43,9 +43,9 @@
 		</thead>
 	</xsl:template>
 
-	<xsl:template match="x:faculties">
+	<xsl:template match="x:wines">
 		<ul>
-			<xsl:for-each select="x:faculty">
+			<xsl:for-each select="x:wine">
 				<li>
 					<xsl:value-of select="."/>
 				</li>
