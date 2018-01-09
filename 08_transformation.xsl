@@ -26,10 +26,7 @@
 				</th>                                                                                             
 				<th style="width:50px">
 					<a href="#" onclick="this.blur(); return sortTable('winehouses-body', 2, true);">Брой вина</a>
-				</th>                                                                                 
-				<th style="width:20px">
-					<a href="#" onclick="this.blur(); return sortTable('winehouses-body', 3, true);">Тип</a>
-				</th>                                                                              
+				</th>                                                                                                                                                              
 				<th style="width:110px">
 					Описание
 				</th>                                                                                                        
@@ -75,10 +72,7 @@
 		</td>    
 		<td>
 			<xsl:value-of select="x:wines_count" />
-		</td>    
-		<td>
-			<xsl:value-of select="@type" />
-		</td>                                                         
+		</td>                                                          
 		<td>
 			<xsl:value-of select="x:description" />
 		</td>                           
