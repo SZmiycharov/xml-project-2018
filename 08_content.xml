@@ -7,7 +7,7 @@
 				xsi:schemaLocation="http://www.w3schools.com 08_schema.xsd">
 
 	<winehouses>
-		<winehouse id="winehouse1" type="Държавен">
+		<winehouse id="winehouse1">
 			<name>Винарска изба "Вила Винифера"</name>
 			<webpage>http://www.villavinifera.com/</webpage>
 			<wines_count>23</wines_count>
@@ -27,7 +27,7 @@
 			</wines>
 		</winehouse>
 		
-		<winehouse id="winehouse2" type="Държавен">
+		<winehouse id="winehouse2">
 			<name>Винарска изба Едоардо Миролио</name>
 			<webpage>http://www.emiroglio-wine.com/bg/</webpage>
 			<wines_count>30</wines_count>
@@ -43,7 +43,7 @@
 			</wines>
 		</winehouse>
 		
-		<winehouse id="winehouse3" type="Частен">
+		<winehouse id="winehouse3">
 			<name>Винарска изба Йогоров</name>
 			<webpage>http://www.yorgov.com/index.htm</webpage>
 			<wines_count>18</wines_count>
@@ -57,10 +57,10 @@
 			</wines>
 		</winehouse>
 		
-		<winehouse id="winehouse4" type="Държавен">
+		<winehouse id="winehouse4" >
 			<name>Винарска изба магура</name>
 			<webpage>http://www.magurawinery.bg/</webpage>
-			<wines_count>17825</wines_count>
+			<wines_count>17</wines_count>
 			<description>
 				Винарска изба „Магура“ е създадена през 1967 година в село Рабиша. Намира се в едно от най-загадъчните и красиви кътчета в България, между река Дунав и червените пясъчни скали на град Белоградчик и природния феномен пещерата Магурата. 			</description>
 			<wines>
@@ -71,7 +71,7 @@
 			</wines>
 		</winehouse>
 			
-		<winehouse id="winehouse5" type="Частен">
+		<winehouse id="winehouse5" >
 			<name>Винарска изба Румелия </name>
 			<webpage>http://www.rumelia.net/</webpage>
 			<wines_count>19</wines_count>
@@ -88,7 +88,7 @@
 			</wines>
 		</winehouse>
 		
-		<winehouse id="winehouse6" type="Държавен">
+		<winehouse id="winehouse6" >
 			<name>Винарска изба Синтика – Сандански</name>
 			<webpage>http://sinticawinery.com/</webpage>
 			<wines_count>17</wines_count>
@@ -105,7 +105,7 @@
 			</wines>
 		</winehouse>
 		
-		<winehouse id="winehouse7" type="Държавен">
+		<winehouse id="winehouse7">
 			<name>Винарска изба „Вила Мелник“ </name>
 			<webpage>http://villamelnik.com/</webpage>
 			<wines_count>35</wines_count>
