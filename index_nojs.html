@@ -3,12 +3,18 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">     
                                                                         
                                                      
-		<meta charset="UTF-8">                                                                       
+	<meta charset="UTF-8">                                                                       
 		<title>Винарски изби</title>                                                                                                         
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="jquery-1.10.2.min.js"></script>
 		<script src="sorttable.js"></script>
 		<script src="xslt.js"></script>
+		<script>
+		window.onload = function() {
+			new Transformation().setXml("08_content.xml")
+				.setXslt("08_transformation.xsl").transform("table-div");
+		}
+		</script>
 	</head>                                                                
                                                                  
 	<body>                                                                 
@@ -16,28 +22,28 @@
 		<h1>Каталог на българските винарски изби</h1>                                                                                 
 		<div id="table-div"><table id="winehouses"><thead><tr><th style="width:50px"><a href="#" onclick="this.blur(); return sortTable('winehouses-body', 0, true);">Име</a></th><th style="width:50px">
 					Уеб страница
-				</th><th style="width:50px"><a href="#" onclick="this.blur(); return sortTable('winehouses-body', 2, true);">Брой вина</a></th><th style="width:20px"><a href="#" onclick="this.blur(); return sortTable('winehouses-body', 3, true);">Тип</a></th><th style="width:110px">
+				</th><th style="width:50px"><a href="#" onclick="this.blur(); return sortTable('winehouses-body', 2, true);">Брой вина</a></th><th style="width:110px">
 					Описание
 				</th><th style="width:100px">
 					Видове вина
-				</th><th style="width:30px"><a href="#" onclick="this.blur(); return sortTable('winehouses-body', 6, true);">Регион</a></th></tr></thead><tbody id="winehouses-body"><tr><td>Винарска изба "Вила Винифера"</td><td>http://www.villavinifera.com/</td><td>23</td><td></td><td>
+				</th><th style="width:30px"><a href="#" onclick="this.blur(); return sortTable('winehouses-body', 6, true);">Регион</a></th></tr></thead><tbody id="winehouses-body"><tr><td>Винарска изба "Вила Винифера"</td><td>http://www.villavinifera.com/</td><td>23</td><td>
 				Сгушена в сърцето на Родопите-село Брестовица, избата е създадена 
 през далечната 1936 година. Построена е от немски архитект, чието име се
  губи някъде във времето, но намерените архивни чертежи и документи го 
 потвърждават и създават усещането за висок професионализъм. Първото ѝ 
-име е „Мискет“. 			</td><td><ul><li>Розе Мавруд 2016</li><li>Мавруд 2014</li><li>Каберне Совиньон 2014</li><li>Мерло 2014</li><li>Мавруд 2016</li><li>Каберне Совиньон 2016</li><li>Мерло 2016</li><li>Бял мавруд 2016</li><li>Шардоне 2016</li><li>Мускат 2016</li></ul></td><td>Pazardzhik, Bulgaria</td></tr><tr><td>Винарска изба Едоардо Миролио</td><td>http://www.emiroglio-wine.com/bg/</td><td>30</td><td></td><td>
+име е „Мискет“. 			</td><td><ul><li>Розе Мавруд 2016</li><li>Мавруд 2014</li><li>Каберне Совиньон 2014</li><li>Мерло 2014</li><li>Мавруд 2016</li><li>Каберне Совиньон 2016</li><li>Мерло 2016</li><li>Бял мавруд 2016</li><li>Шардоне 2016</li><li>Мускат 2016</li></ul></td><td>Pazardzhik, Bulgaria</td></tr><tr><td>Винарска изба Едоардо Миролио</td><td>http://www.emiroglio-wine.com/bg/</td><td>30</td><td>
 				Винарска изба Едоардо Миролио е разположена в регион Тракийска 
 низина в село Еленово, на 22 км. от Нова Загора.  Избата е заобиколена 
 от лозя, разположени по хълмистите склонове, езеро и зелени ливади, 
-които създават отлични условия за развитие на винен туризъм.			</td><td><ul><li>EM Pinot Noir Reserve</li><li>Soli Invicto</li><li>Резерви ЕЛЕНОВО</li><li>Шампанизирани вина по Класически Метод</li><li>Международни вина</li><li>Био Вина</li></ul></td><td>Sliven, Bulgaria</td></tr><tr><td>Винарска изба Йогоров</td><td>http://www.yorgov.com/index.htm</td><td>18</td><td></td><td>
+които създават отлични условия за развитие на винен туризъм.			</td><td><ul><li>EM Pinot Noir Reserve</li><li>Soli Invicto</li><li>Резерви ЕЛЕНОВО</li><li>Шампанизирани вина по Класически Метод</li><li>Международни вина</li><li>Био Вина</li></ul></td><td>Sliven, Bulgaria</td></tr><tr><td>Винарска изба Йогоров</td><td>http://www.yorgov.com/index.htm</td><td>18</td><td>
 				Капацитетът на избата е около 10 000 литра. Оборудвана е с 
 винефикатори от неръждаема стомана, което гарантира чистотата  и 
 истинският вкус на  нашето вино, получено от ферментацията на 100% 
-гроздов сок.			</td><td><ul><li>Yorgov - Каберне Совиньон</li><li>Yorgov - Мерло</li><li>Yorgov - Купаж - Мерло  и Каберне Совиньон</li><li>Наливно вино</li></ul></td><td>Shumen, Bulgaria</td></tr><tr><td>Винарска изба магура</td><td>http://www.magurawinery.bg/</td><td>17</td><td></td><td>
+гроздов сок.			</td><td><ul><li>Yorgov - Каберне Совиньон</li><li>Yorgov - Мерло</li><li>Yorgov - Купаж - Мерло  и Каберне Совиньон</li><li>Наливно вино</li></ul></td><td>Shumen, Bulgaria</td></tr><tr><td>Винарска изба магура</td><td>http://www.magurawinery.bg/</td><td>17</td><td>
 				Винарска изба „Магура“ е създадена през 1967 година в село Рабиша. 
 Намира се в едно от най-загадъчните и красиви кътчета в България, между 
 река Дунав и червените пясъчни скали на град Белоградчик и природния 
-феномен пещерата Магурата. 			</td><td><ul><li>Естествени Пенливи Вина</li><li>Вина Тревите</li><li>Сортови Вина Магура</li><li>Вина Белоградчишки Скали</li></ul></td><td></td></tr><tr><td>Винарска изба Румелия </td><td>http://www.rumelia.net/</td><td>19</td><td></td><td>
+феномен пещерата Магурата. 			</td><td><ul><li>Естествени Пенливи Вина</li><li>Вина Тревите</li><li>Сортови Вина Магура</li><li>Вина Белоградчишки Скали</li></ul></td><td>Sofia, Bulgaria</td></tr><tr><td>Винарска изба Румелия </td><td>http://www.rumelia.net/</td><td>19</td><td>
         Винарска изба “Румелия” преработва качествено грозде, събрало 
 слънчевите лъчи на Златна Тракия – предпоставка и гаранция за високото 
 ниво на предлаганите вина. Избата е оборудвана по най-модерна технология
@@ -47,16 +53,17 @@
 производството на 400-500 хиляди бутилки вино на година. Подземната изба
  разполага с бъчви от френски, американски и български дъб – с капацитет
  1000 барици.
-      </td><td><ul><li>Бели вина от серия “Мерул”</li><li>Розе от серия “Мерул”</li><li>Червени вина от серия “Мерул Резерва”</li><li>Червени вина от серия “Мерул”</li><li>Червени вина от серия “Румелия”</li><li>Червено вино от серия “Ерелия”</li></ul></td><td>Pazardzhik, Bulgaria</td></tr><tr><td>Винарска изба Синтика – Сандански</td><td>http://sinticawinery.com/</td><td>17</td><td></td><td>
+      </td><td><ul><li>Бели вина от серия “Мерул”</li><li>Розе от серия “Мерул”</li><li>Червени вина от серия “Мерул Резерва”</li><li>Червени вина от серия “Мерул”</li><li>Червени вина от серия “Румелия”</li><li>Червено вино от серия “Ерелия”</li></ul></td><td>Pazardzhik, Bulgaria</td></tr><tr><td>Винарска изба Синтика – Сандански</td><td>http://sinticawinery.com/</td><td>17</td><td>
         Разположена в сърцето на регион известен с лозарството и 
 винарството от времето на Траките, Винарска изба Синтика е новото 
 превъплъщение на изградената в средата на миналия век Комплексна опитна 
 станция в гр. Сандански.
-      </td><td><ul><li>La Poesie</li><li>Renaissance</li><li>Explosion</li><li>Phenomene</li><li>Sinti</li><li>Le Passionel</li></ul></td><td>Blagoevgrad, Bulgaria</td></tr><tr><td>Винарска изба „Вила Мелник“ </td><td>http://villamelnik.com/</td><td>35</td><td></td><td>
+      </td><td><ul><li>La Poesie</li><li>Renaissance</li><li>Explosion</li><li>Phenomene</li><li>Sinti</li><li>Le Passionel</li></ul></td><td>Blagoevgrad, Bulgaria</td></tr><tr><td>Винарска изба „Вила Мелник“ </td><td>http://villamelnik.com/</td><td>35</td><td>
         Винарска изба Вила Мелник
         е семейна винарна, производител на смели вина от местни и 
 чуждестранни сортове с подчертано Мелнишки характер. Разполага с 300 
 декара собствени лозя край град Мелник и модерна винарна, която е 
 отворена за посетители всеки ден.
-      </td><td><ul><li>Специални вина</li><li>Aplauz</li><li>Bergule</li><li>Family tradition</li><li>Young and crazy</li></ul></td><td>Blagoevgrad, Bulgaria</td></tr></tbody></table></div>   
+      </td><td><ul><li>Специални вина</li><li>Aplauz</li><li>Bergule</li><li>Family tradition</li><li>Young and crazy</li></ul></td><td>Blagoevgrad, Bulgaria</td></tr></tbody></table></div>  
+	        
 </body></html>
