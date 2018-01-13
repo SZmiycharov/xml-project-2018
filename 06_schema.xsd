@@ -1,0 +1,66 @@
+
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.w3schools.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="winehouses_catalogue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="winehouses">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="winehouse" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element type="xs:anyURI" name="webpage"/>
+                    <xs:element type="xs:byte" name="wines_count"/>
+                    <xs:element type="xs:string" name="description"/>
+                    <xs:element name="wines">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="wine" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="regions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="region" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="id" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="winehouses_regions_pairs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="winehouses_regions" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="winehouse_id" use="optional"/>
+                      <xs:attribute type="xs:string" name="region_id" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

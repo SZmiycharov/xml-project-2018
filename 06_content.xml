@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/xsl" href="06_transformation.xsl"?>
+
+<winehouses_catalogue	xmlns="http://www.w3schools.com"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.w3schools.com 06_schema.xsd">
+
+	<winehouses>
+		<winehouse id="winehouse1">
+			<name>Винарска изба "Вила Винифера"</name>
+			<webpage>http://www.villavinifera.com/</webpage>
+			<wines_count>23</wines_count>
+			<description>
+				Сгушена в сърцето на Родопите-село Брестовица, избата е създадена през далечната 1936 година. Построена е от немски архитект, чието име се губи някъде във времето, но намерените архивни чертежи и документи го потвърждават и създават усещането за висок професионализъм. Първото ѝ име е „Мискет“. 			</description>
+			<wines>
+				<wine>Розе Мавруд 2016</wine>
+				<wine>Мавруд 2014</wine>
+				<wine>Каберне Совиньон 2014</wine>
+				<wine>Мерло 2014</wine>
+				<wine>Мавруд 2016</wine>
+				<wine>Каберне Совиньон 2016</wine>
+				<wine>Мерло 2016</wine>
+				<wine>Бял мавруд 2016</wine>
+				<wine>Шардоне 2016</wine>
+				<wine>Мускат 2016</wine>
+			</wines>
+		</winehouse>
+		
+		<winehouse id="winehouse2">
+			<name>Винарска изба Едоардо Миролио</name>
+			<webpage>http://www.emiroglio-wine.com/bg/</webpage>
+			<wines_count>30</wines_count>
+			<description>
+				Винарска изба Едоардо Миролио е разположена в регион Тракийска низина в село Еленово, на 22 км. от Нова Загора.  Избата е заобиколена от лозя, разположени по хълмистите склонове, езеро и зелени ливади, които създават отлични условия за развитие на винен туризъм.			</description>
+			<wines>
+				<wine>EM Pinot Noir Reserve</wine>
+				<wine>Soli Invicto</wine>
+				<wine>Резерви ЕЛЕНОВО</wine>
+				<wine>Шампанизирани вина по Класически Метод</wine>
+				<wine>Международни вина</wine>
+				<wine>Био Вина</wine>
+			</wines>
+		</winehouse>
+		
+		<winehouse id="winehouse3">
+			<name>Винарска изба Йогоров</name>
+			<webpage>http://www.yorgov.com/index.htm</webpage>
+			<wines_count>18</wines_count>
+			<description>
+				Капацитетът на избата е около 10 000 литра. Оборудвана е с винефикатори от неръждаема стомана, което гарантира чистотата  и истинският вкус на  нашето вино, получено от ферментацията на 100% гроздов сок.			</description>
+			<wines>
+				<wine>Yorgov - Каберне Совиньон</wine>
+				<wine>Yorgov - Мерло</wine>
+				<wine>Yorgov - Купаж - Мерло  и Каберне Совиньон</wine>
+				<wine>Наливно вино</wine>
+			</wines>
+		</winehouse>
+		
+		<winehouse id="winehouse4" >
+			<name>Винарска изба магура</name>
+			<webpage>http://www.magurawinery.bg/</webpage>
+			<wines_count>17</wines_count>
+			<description>
+				Винарска изба „Магура“ е създадена през 1967 година в село Рабиша. Намира се в едно от най-загадъчните и красиви кътчета в България, между река Дунав и червените пясъчни скали на град Белоградчик и природния феномен пещерата Магурата. 			</description>
+			<wines>
+				<wine>Естествени Пенливи Вина</wine>
+				<wine>Вина Тревите</wine>
+				<wine>Сортови Вина Магура</wine>
+				<wine>Вина Белоградчишки Скали</wine>
+			</wines>
+		</winehouse>
+			
+		<winehouse id="winehouse5" >
+			<name>Винарска изба Румелия </name>
+			<webpage>http://www.rumelia.net/</webpage>
+			<wines_count>19</wines_count>
+			<description>
+        Винарска изба “Румелия” преработва качествено грозде, събрало слънчевите лъчи на Златна Тракия – предпоставка и гаранция за високото ниво на предлаганите вина. Избата е оборудвана по най-модерна технология за производство на елитни червени вина, чиито стил и финес се дължат на стриктния контрол на качеството на всяка партида грозде. Капацитетът на избата е за преработка на 500-600 тона грозде годишно – за производството на 400-500 хиляди бутилки вино на година. Подземната изба разполага с бъчви от френски, американски и български дъб – с капацитет 1000 барици.
+      </description>
+			<wines>
+				<wine>Бели вина от серия “Мерул”</wine>
+				<wine>Розе от серия “Мерул”</wine>
+        <wine>Червени вина от серия “Мерул Резерва”</wine>
+        <wine>Червени вина от серия “Мерул”</wine>
+        <wine>Червени вина от серия “Румелия”</wine>
+        <wine>Червено вино от серия “Ерелия”</wine>
+			</wines>
+		</winehouse>
+		
+		<winehouse id="winehouse6" >
+			<name>Винарска изба Синтика – Сандански</name>
+			<webpage>http://sinticawinery.com/</webpage>
+			<wines_count>17</wines_count>
+			<description>
+        Разположена в сърцето на регион известен с лозарството и винарството от времето на Траките, Винарска изба Синтика е новото превъплъщение на изградената в средата на миналия век Комплексна опитна станция в гр. Сандански.
+      </description>
+			<wines>
+				<wine>La Poesie</wine>
+				<wine>Renaissance</wine>
+        <wine>Explosion</wine>
+        <wine>Phenomene</wine>
+        <wine>Sinti</wine>
+        <wine>Le Passionel</wine>
+			</wines>
+		</winehouse>
+		
+		<winehouse id="winehouse7">
+			<name>Винарска изба „Вила Мелник“ </name>
+			<webpage>http://villamelnik.com/</webpage>
+			<wines_count>35</wines_count>
+			<description>
+        Винарска изба Вила Мелник
+        е семейна винарна, производител на смели вина от местни и чуждестранни сортове с подчертано Мелнишки характер. Разполага с 300 декара собствени лозя край град Мелник и модерна винарна, която е отворена за посетители всеки ден.
+      </description>
+			<wines>
+				<wine>Специални вина</wine>
+        <wine>Aplauz</wine>
+        <wine>Bergule</wine>
+        <wine>Family tradition</wine>
+        <wine>Young and crazy</wine>
+			</wines>
+		</winehouse>
+	</winehouses>
+
+	<regions>
+		<region id="CA">Sofia, Bulgaria</region>
+		<region id="E">Blagoevgrad, Bulgaria</region>
+		<region id="CH">Sliven, Bulgaria</region>
+		<region id="H">Shumen, Bulgaria</region>
+		<region id="PA">Pazardzhik, Bulgaria</region>
+	</regions>
+
+	<winehouses_regions_pairs>
+		<winehouses_regions winehouse_id="winehouse1" region_id="PA" />
+		<winehouses_regions winehouse_id="winehouse2" region_id="CH" />
+		<winehouses_regions winehouse_id="winehouse3" region_id="H" />
+		<winehouses_regions winehouse_id="winehouse4" region_id="CA" />
+		<winehouses_regions winehouse_id="winehouse5" region_id="PA" />
+		<winehouses_regions winehouse_id="winehouse6" region_id="E" />
+		<winehouses_regions winehouse_id="winehouse7" region_id="E" />
+	</winehouses_regions_pairs>
+
+</winehouses_catalogue>
