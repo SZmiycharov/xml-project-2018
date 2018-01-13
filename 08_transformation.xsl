@@ -34,7 +34,7 @@
 					Видове вина
 				</th>                                                                                           
 				<th style="width:30px">
-					<a href="#" onclick="this.blur(); return sortTable('winehouses-body', 6, true);">Регион</a>
+					<a href="#" onclick="this.blur(); return sortTable('winehouses-body', 5, true);">Регион</a>
 				</th>                                                                                                             
 			</tr>  
 		</thead>
