@@ -68,7 +68,7 @@
 			<xsl:value-of select="x:name" />
 		</td>                                                                            
 		<td>
-			<xsl:value-of select="x:webpage" />
+			<a href="{x:webpage}"><xsl:value-of select="x:webpage" /></a>
 		</td>    
 		<td>
 			<xsl:value-of select="x:wines_count" />
