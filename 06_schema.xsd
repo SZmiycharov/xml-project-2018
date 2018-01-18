@@ -1,66 +1,127 @@
+<?xml version="1.0"?>
 
+<xs:schema	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.w3schools.com"
+			xmlns="http://www.w3schools.com"
+			elementFormDefault="qualified">
 
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.w3schools.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="winehouses_catalogue">
+  <!-- Simple types -->
+
+  <xs:element name="name" type="xs:string" />
+
+  <xs:element name="webpage" type="xs:string" />
+
+  <xs:element name="wines_count" type="xs:positiveInteger" />
+
+  <xs:element name="description" type="xs:string" />
+
+  <xs:element name="wine" type="xs:string" />
+
+  <!-- Attributes -->
+
+  <xs:simpleType name="winehouse_id">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="winehouse[1-9]([0-9])*" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="region_id">
+    <xs:restriction base="xs:string">
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Complex types -->
+
+  <xs:element name="wines">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="winehouses">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="winehouse" maxOccurs="unbounded" minOccurs="0">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element type="xs:string" name="name"/>
-                    <xs:element type="xs:anyURI" name="webpage"/>
-                    <xs:element type="xs:byte" name="wines_count"/>
-                    <xs:element type="xs:string" name="description"/>
-                    <xs:element name="wines">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element type="xs:string" name="wine" maxOccurs="unbounded" minOccurs="0"/>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                  </xs:sequence>
-                  <xs:attribute type="xs:string" name="id" use="optional"/>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="regions">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="region" maxOccurs="unbounded" minOccurs="0">
-                <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute type="xs:string" name="id" use="optional"/>
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="winehouses_regions_pairs">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="winehouses_regions" maxOccurs="unbounded" minOccurs="0">
-                <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute type="xs:string" name="winehouse_id" use="optional"/>
-                      <xs:attribute type="xs:string" name="region_id" use="optional"/>
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
+        <xs:element ref="wine" maxOccurs="unbounded" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-</xs:schema>
 
+  <xs:element name="winehouse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name" />
+        <xs:element ref="webpage" />
+        <xs:element ref="wines_count" />
+        <xs:element ref="description" />
+        <xs:element ref="wines" />
+      </xs:sequence>
+
+      <xs:attribute name="id" type="winehouse_id" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="region">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="id" type="region_id" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="winehouses_regions">
+    <xs:complexType>
+      <xs:attribute name="winehouse_id" type="winehouse_id" use="required" />
+      <xs:attribute name="region_id" type="region_id" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+
+  <!-- Tags -->
+
+  <xs:element name="winehouses">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="winehouse" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="regions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="region" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="winehouses_regions_pairs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="winehouses_regions" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Document -->
+
+  <xs:element name="winehouses_catalogue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="winehouses" />
+        <xs:element ref="regions" />
+        <xs:element ref="winehouses_regions_pairs" />
+      </xs:sequence>
+    </xs:complexType>
+
+    <!-- Keys -->
+
+    <xs:key name="regionsKey">
+      <xs:selector xpath="winehouses_catalogue" />
+      <xs:field xpath="winehouses/winehouse/@id" />
+      <xs:field xpath="regions/region/@id" />
+    </xs:key>
+    <xs:keyref name="regionsRef" refer="regionsKey">
+      <xs:selector xpath="winehouses_catalogue/winehouses_regions_pairs/winehouses_regions" />
+      <xs:field xpath="@winehouse_id" />
+      <xs:field xpath="@region_id" />
+    </xs:keyref>
+
+  </xs:element>
+
+</xs:schema>
